@@ -6,9 +6,9 @@ import pandas
 import math
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
-from scipy.interpolate import spline
+from scipy.interpolate import make_interp_spline
 from sklearn.svm import SVR
-from pandas.tools.plotting import autocorrelation_plot
+from pandas.plotting import autocorrelation_plot
 from statsmodels.tsa.arima_model import ARIMA
 from scipy.stats import gaussian_kde
 from statsmodels.tsa.stattools import adfuller
